@@ -1,4 +1,4 @@
 generify
 ========
 
-Add generics to ruby collections
+Add Java style generics to ruby collections
