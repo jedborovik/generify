@@ -3,7 +3,8 @@ generify
 
 Add Java style generics to ruby collections
 
-###Array
+##Array
+
 ```bash
 > array = Array.new.generify(String)
 => []
@@ -12,7 +13,8 @@ Add Java style generics to ruby collections
 > array << 5
 Error: Array 'array' only accepts objects of type String
 ```
-###Hash
+##Hash
+
 ```bash
 > hash = Hash.new.generify_key(Symbol).generify_value(Fixnum)
 => {}
